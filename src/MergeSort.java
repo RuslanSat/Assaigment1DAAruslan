@@ -21,7 +21,6 @@ public class MergeSort {
         sort(a, buf, lo, mid, m);
         sort(a, buf, mid + 1, hi, m);
 
-        // skip merge if already ordered
         if (a[mid].compareTo(a[mid + 1]) <= 0) return;
 
         int i = lo, j = mid + 1, k = lo;
