@@ -1,4 +1,4 @@
-package Src;
+package src;
 
 public class Metrics {
     private long comparisons = 0;
